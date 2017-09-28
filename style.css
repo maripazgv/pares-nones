@@ -1,0 +1,20 @@
+
+.container text-center{
+    text-align: center;
+    background-color: aquamarine;
+    width: 100%;
+    margin: 0 auto;
+   
+}
+#quieresjugar{
+    width: 90%;
+    background-color: paleturquoise;
+    margin: 0 auto;
+    padding: 0.5em;
+    color:darkblue;
+}
+#si, #no, #par, #impar{
+    background-color: blue;
+    color: white;
+    margin: 0.5em;
+}
