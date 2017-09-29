@@ -1,4 +1,6 @@
-
+#nojuego,#sijuego,#paroimpar,#eligenum,#eligemaquina,#resultado,#total{
+    display: none;
+}
 .container text-center{
     text-align: center;
     background-color: aquamarine;
@@ -13,8 +15,11 @@
     padding: 0.5em;
     color:darkblue;
 }
-#si, #no, #par, #impar{
+#si, #no, #par, #impar, #botonresul,#volver{
     background-color: blue;
     color: white;
     margin: 0.5em;
+}
+#botonresul{
+    vertical-align: bottom;
 }
