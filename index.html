@@ -30,18 +30,20 @@
             
             <div id="sijuego">
                 <h2>Bienvenido a nuestro juego de Par o impar.</h2>
-                <img src="img/manos.jpg" width="100px">   
+                <img src="img/manos.jpg" width="100px"> 
+                <button id='bienvenido' type="button" class="btn btn-warning"> Continuar </button>
             </div>
             
-            <div id="paroimpar">
-                <h2>Elige par o impar</h2>
-                    <input type="radio" id="par" class="btn-lg" >Pares
-                    <input type="radio" id="impar" class="btn-lg">Nones    
+            <div id="parOimpar">
+                <h2>Elige pares o nones</h2>
+                    <input type="radio" name='elegir' value ='pares'id="par" class="btn-lg" >Pares
+                    <input type="radio" name='elegir' value='nones' id="impar" class="btn-lg">Nones 
+                <button id='inicioJugada' type="button" class="btn btn-warning"> Continuar </button>
             </div>
             
             <div id="eligenum">
                 <h2>Elige un número del 1 al 10</h2>
-                <input type="number" placeholder="Escribe aquí el número" max="10" min="1">
+                <input id='numero' type="number" placeholder="Escribe aquí el número" max="10" min="0">
                 <button id="jugar" type="button" class="btn btn-warning">Jugar</button>        
             </div>
             
@@ -52,16 +54,16 @@
             
             <div id="resultado">
                 <h3>La máquina ha elegido el número...</h3>
-                <textarea rows="3" cols="15"></textarea>
+                <div id="numeroMaquina"></div>
                 <button id="botonresul" class="btn-lg" >¿Quien ha ganado?</button>
             </div>  
             
             <div id="total" class="panel-body">
                 <h2>Resultado</h2>
-                <textarea rows="4" cols="50"></textarea>
-                <div class="alert alert-success" role="alert">¡Enhorabuena, has ganado!</div>
-                <div class="alert alert-warning" role="alert">Gana la máquina, lo siento otra vez será</div>
-                <button id="volver" class="btn-lg" >Volver a jugar</button>
+                <div id="totales"></div>
+                <div id="ganaJugador" class="alert alert-success" role="alert">¡Enhorabuena, has ganado!</div>
+                <div id="ganaMaquina" class="alert alert-warning" role="alert">Gana la máquina, lo siento otra vez será</div>
+                
             </div>
             
                         
@@ -71,7 +73,7 @@
             
         
         
-<!--        <script type="text/javascript" src="consola.js"></script>        -->
+<!--<script type="text/javascript" src="consola.js"></script> -->
         <script type="text/javascript" src="script.js"></script>
 	</body>
 </html>

@@ -1,3 +1,4 @@
+
 var jugador, maquina, pares, nones, numJugador, numMaquina, suma, resultado;
 
 pares = false;
